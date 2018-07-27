@@ -3,10 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <title>Salary Calculator</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="css/app.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <form>
+      Hourly Salary: <input type='number' name='hourlyWage' value='10'>
+    </form>
+    <button type="button" id='hour-btn'>Calc</button>
+    <form>
+      Weekly Salary: <input type='number' name='weeklyWage' value='10'>
+    </form>
+    <button type="button" id='week-btn'>Calc</button>
+    <form>
+      Yearly Salary: <input type='number' name='yearlyWage' value='10'>
+    </form>
+    <button type="button" id='year-btn'>Calc</button>
+
+
+  <script src="js/salaryCalc.js" type="text/javascript"></script>
   </body>
 </html>
